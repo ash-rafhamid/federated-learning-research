@@ -1,0 +1,9 @@
+# Direct dependencies used by the original Kaggle scripts.
+# Historical training-environment versions were not recorded as a lockfile.
+# On Kaggle, torch/numpy/pandas/matplotlib/IPython are normally preinstalled.
+torch
+opacus
+numpy
+pandas
+matplotlib
+ipython

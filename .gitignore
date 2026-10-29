@@ -1,0 +1,34 @@
+# Python and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.ipynb_checkpoints/
+.pytest_cache/
+
+# Credentials and local configuration
+.env
+.env.*
+!.env.example
+kaggle.json
+credentials.json
+*.pem
+*.key
+
+# Raw data, model artifacts, and generated run directories
+datasets/
+raw_data/
+checkpoints/
+pipeline1_final_seed_*/
+pipeline1_three_seed_summary/
+*.pt
+*.pth
+*.ckpt
+*.zip
+*.gz
+
+# Editor/OS files
+.idea/
+.vscode/
+Thumbs.db
+.DS_Store
