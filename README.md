@@ -1,4 +1,6 @@
-# Frozen Public Representations for Private Federated Learning
+# Federated Learning Research
+
+Repository for federated-learning research code. The current implementation is Pipeline 1, described below. Additional experiment pipelines can be added to this repository as they become ready.
 
 Research code for **Frozen Public Representations for Communication-Efficient Differentially Private Federated Learning**. The experiment compares training an entire convolutional network with training only a classifier on frozen public features, using non-IID EMNIST clients, DP-SGD, and measured serialized model messages.
 
@@ -120,8 +122,8 @@ Frozen 8-bit reduces recorded training traffic by approximately **90.64%** relat
 Kaggle is the primary execution environment. For local inspection:
 
 ```bash
-git clone https://github.com/ash-rafhamid/frozen-public-dp-fl.git
-cd frozen-public-dp-fl
+git clone https://github.com/ash-rafhamid/federated-learning-research.git
+cd federated-learning-research
 python -m venv .venv
 # Windows PowerShell: .venv\Scripts\Activate.ps1
 # Linux/macOS: source .venv/bin/activate
